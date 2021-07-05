@@ -1,0 +1,56 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+    }
+    
+    .background {
+        /* Fallback for old browsers */
+        background: #282a36;
+        background-color: #282a36;
+    }
+    
+    .centered {
+        text-align: center;
+    }
+    
+    .mybtn {
+        border: 0;
+        border-radius: 10vw;
+        width: 100px;
+        height: 30px;
+    }
+    
+    .decrease {
+        background: #ff5555;
+    }
+    
+    .decrease:hover {
+        background: #ff3939;
+    }
+    
+    .increase {
+        background: #50fa7b;
+    }
+    
+    .increase:hover {
+        background: #1dff56;
+    }
+    
+    .myCard {
+        display: block;
+        width: 30vw;
+        height: 30vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35vh;
+    }
+    
+    .reset {
+        height: 10px;
+        font-size: 12px;
+        cursor: pointer;
+        color: #44475a;
+        background: none !important;
+        border: none;
+        margin-bottom: 10px;
+    }
